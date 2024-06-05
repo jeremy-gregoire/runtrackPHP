@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RuntrackPHP - Jour02 - Job01</title>
+  <title>RuntrackPHP - Jour02 - Job03</title>
 </head>
 
 <body>
-  <form method="get" action="index.php">
+  <form method="post" action="index.php">
     <label for="txtNom">Nom</label>
     <input type="text" name="txtNom" id="txtNom">
     <label for="txtPrenom">Prénom</label>
@@ -23,5 +23,5 @@
 </html>
 
 <?php
-echo "Nombre d'arguments : " . sizeof($_GET);
+echo "Nombre d'arguments : " . sizeof($_POST);
 ?>

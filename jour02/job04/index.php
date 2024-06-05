@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RuntrackPHP - Jour02 - Job02</title>
+  <title>RuntrackPHP - Jour02 - Job04</title>
 </head>
 
 <body>
-  <form action="index.php" method="get">
+  <form action="index.php" method="post">
     <input type="text" name="txt1">
     <input type="text" name="txt2">
     <input type="text" name="txt3">
@@ -23,7 +23,7 @@
       </tr>
     </thead>
     <tbody>
-      <?php foreach ($_GET as $key => $value) { ?>
+      <?php foreach ($_POST as $key => $value) { ?>
         <tr>
           <td><?= $key ?></td>
           <td><?= $value == "" ? "vide" : $value ?></td>
