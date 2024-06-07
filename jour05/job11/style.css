@@ -1,0 +1,16 @@
+.simple-style {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+  border-collapse: collapse;
+}
+
+.simple-style th,
+.simple-style td {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.simple-style td {
+  text-align: center;
+}
